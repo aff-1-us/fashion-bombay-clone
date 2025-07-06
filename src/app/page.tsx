@@ -4,7 +4,6 @@ import { Search } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
-      <script type="text/javascript" src="https://s.skimresources.com/js/288044X1774800.skimlinks.js"></script>
       {/* Top Header Bar */}
       <div className="bg-gray-50 border-b text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
