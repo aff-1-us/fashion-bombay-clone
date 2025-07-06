@@ -27,13 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
-        <Script type="text/javascript" src="https://s.skimresources.com/js/288044X1774800.skimlinks.js"></Script>
+        
         <Script
           crossOrigin="anonymous"
           src="//unpkg.com/same-runtime/dist/index.global.js"
         />
       </head>
       <body suppressHydrationWarning className="antialiased">
+        <Script type="text/javascript" src="https://s.skimresources.com/js/288044X1774800.skimlinks.js"></Script>
         <ClientBody>{children}</ClientBody>
       </body>
     </html>
